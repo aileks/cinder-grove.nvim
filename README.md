@@ -13,11 +13,11 @@ A warm, muted Neovim colorscheme built around charcoal, grove green, ember orang
 
 ## Installation
 
-Use the repository URL after publishing it. With lazy.nvim:
+lazy.nvim:
 
 ```lua
 {
-  '<user>/cinder-grove.nvim',
+  'aileks/cinder-grove.nvim',
   lazy = false,
   priority = 1000,
   config = function()
@@ -26,7 +26,7 @@ Use the repository URL after publishing it. With lazy.nvim:
 }
 ```
 
-With Neovim's built-in package manager:
+Neovim's built-in package manager:
 
 ```lua
 vim.pack.add({
@@ -35,7 +35,7 @@ vim.pack.add({
 vim.cmd.colorscheme('cinder-grove')
 ```
 
-For local development:
+Locally:
 
 ```lua
 vim.opt.runtimepath:prepend('/path/to/cinder-grove.nvim')
@@ -58,7 +58,7 @@ vim.cmd.colorscheme('cinder-grove')
 
 ### Transparency
 
-Cinder Grove uses `#121212` as the default editor background. Enable transparency while keeping floating windows opaque:
+Enable transparency while keeping floating windows opaque:
 
 ```lua
 require('cinder-grove').setup({ transparent = true })
@@ -84,28 +84,6 @@ require('cinder-grove').setup({
 
 Highlight colors may be palette names, `#RRGGBB`, or `NONE`. Other `nvim_set_hl()` fields pass through unchanged.
 
-## Palette
-
-| Role | Color |
-| --- | --- |
-| Background | `#121212` |
-| Alternate background | `#191919` |
-| Surface | `#212121` |
-| Muted | `#535353` |
-| Gray | `#949494` |
-| Dim foreground | `#A7A7A7` |
-| Foreground | `#B4B4B4` |
-| Bright foreground | `#D5D5D5` |
-| Red | `#B14242` |
-| Green | `#8A9A5B` |
-| Yellow | `#E5A72A` |
-| Blue | `#6284A3` |
-| Magenta | `#95799A` |
-| Cyan | `#4A8B8B` |
-| Orange | `#C4693D` |
-
-No extra colors are used by the Neovim theme. Every highlight maps to this established Cinder Grove palette.
-
 ## Integrations
 
 Cinder Grove defines highlights for:
@@ -125,21 +103,9 @@ Cinder Grove defines highlights for:
 - trailblazer.nvim
 - which-key.nvim
 
-Integrations are pure highlight definitions and are safe to load without the plugins installed.
-
-### Lualine
-
-The current dotfiles configuration works without changes:
-
-```lua
-require('lualine').setup({
-  options = { theme = 'auto' },
-})
-```
-
 ### fzf.vim and minimap.vim
 
-These plugins require configuration in addition to highlight groups. Optional data is exported without changing globals:
+These plugins require configuration in addition to highlight groups:
 
 ```lua
 vim.g.fzf_colors = require('cinder-grove.extras').fzf_colors()
@@ -163,4 +129,4 @@ git diff --check
 
 ## Acknowledgements
 
-Cinder Grove began as a visual adaptation of [Ashen](https://codeberg.org/ficd/ashen.nvim) by Daniel Fichtinger. Its standalone Neovim architecture also uses Ashen as a reference. Ashen's MIT notice is retained in `LICENSE`.
+Cinder Grove is an adaptation of [Ashen](https://codeberg.org/ficd/ashen.nvim) by Daniel Fichtinger.

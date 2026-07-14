@@ -41,8 +41,14 @@ end
 
 function M.apply(colors, config)
   local util = require('cinder-grove.util')
+  local resolved = {}
+
   for group, spec in pairs(M.collect(config)) do
-    vim.api.nvim_set_hl(0, group, util.resolve_spec(spec, colors))
+    resolved[group] = util.resolve_spec(spec, colors)
+  end
+
+  for group, spec in pairs(resolved) do
+    vim.api.nvim_set_hl(0, group, spec)
   end
 end
 
