@@ -9,7 +9,6 @@ A warm, muted Neovim colorscheme built around charcoal, grove green, ember orang
 - Plugin integrations with no plugin setup or import-time side effects
 - Lualine auto-discovery through `theme = 'auto'`
 - Optional transparency, palette overrides, highlight overrides, and terminal colors
-- Dependency-free headless tests
 
 ## Installation
 
@@ -113,18 +112,6 @@ vim.g.fzf_colors = require('cinder-grove.extras').fzf_colors()
 for name, value in pairs(require('cinder-grove.extras').minimap()) do
   vim.g[name] = value
 end
-```
-
-## Development
-
-```sh
-stylua --check colors lua tests
-nvim --headless --clean --cmd 'set runtimepath^=.' -l tests/run.lua
-nvim --headless --clean --cmd 'set runtimepath^=.' \
-  '+colorscheme cinder-grove' \
-  '+lua assert(vim.g.colors_name == "cinder-grove")' \
-  '+qa'
-git diff --check
 ```
 
 ## Acknowledgements
