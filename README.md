@@ -1,6 +1,6 @@
 # Cinder Grove
 
-A warm, muted Neovim colorscheme built around charcoal, grove green, ember orange, and cool blue accents.
+A warm, muted Neovim colorscheme that's easy on the eyes.
 
 ![Cinder Grove Showcase](./assets/screenshot.png)
 
@@ -115,7 +115,3 @@ for name, value in pairs(require('cinder-grove.extras').minimap()) do
   vim.g[name] = value
 end
 ```
-
-## Acknowledgements
-
-Cinder Grove is an adaptation of [Ashen](https://codeberg.org/ficd/ashen.nvim) by Daniel Fichtinger.
