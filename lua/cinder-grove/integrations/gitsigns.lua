@@ -1,0 +1,18 @@
+return {
+  GitSignsAdd = { fg = 'green' },
+  GitSignsChange = { fg = 'cyan' },
+  GitSignsDelete = { fg = 'red' },
+  GitSignsTopdelete = { fg = 'red' },
+  GitSignsChangedelete = { fg = 'orange' },
+  GitSignsUntracked = { fg = 'green' },
+  GitSignsAddNr = { fg = 'green' },
+  GitSignsChangeNr = { fg = 'cyan' },
+  GitSignsDeleteNr = { fg = 'red' },
+  GitSignsAddLn = { bg = 'surface' },
+  GitSignsChangeLn = { bg = 'surface' },
+  GitSignsDeleteLn = { bg = 'surface' },
+  GitSignsAddInline = { fg = 'green', bg = 'surface', bold = true },
+  GitSignsChangeInline = { fg = 'cyan', bg = 'surface', bold = true },
+  GitSignsDeleteInline = { fg = 'red', bg = 'surface', bold = true },
+  GitSignsCurrentLineBlame = { fg = 'muted', italic = true },
+}

@@ -6,6 +6,15 @@ local modules = {
   'cinder-grove.groups.treesitter',
   'cinder-grove.groups.lsp',
   'cinder-grove.groups.languages',
+  'cinder-grove.integrations.ibl',
+  'cinder-grove.integrations.markdown-plus',
+  'cinder-grove.integrations.gitsigns',
+  'cinder-grove.integrations.completion',
+  'cinder-grove.integrations.navigation',
+  'cinder-grove.integrations.ui',
+  'cinder-grove.integrations.writing',
+  'cinder-grove.integrations.neogit',
+  'cinder-grove.integrations.trailblazer',
 }
 
 function M.collect(config)
