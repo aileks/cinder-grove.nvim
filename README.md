@@ -2,6 +2,8 @@
 
 A warm, muted Neovim colorscheme built around charcoal, grove green, ember orange, and cool blue accents.
 
+![Cinder Grove Showcase](./assets/screenshot.png)
+
 ## Features
 
 - Modern Neovim UI, syntax, Tree-sitter, LSP, diagnostics, and semantic tokens
