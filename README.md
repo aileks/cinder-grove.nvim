@@ -81,7 +81,7 @@ Cinder Grove uses portable semantic roles for UI layers, text hierarchy, brand a
 | `text_secondary` | `#ACA49B` | Secondary text |
 | `text` | `#BBB3A9` | Default text |
 | `text_bright` | `#DDD5CA` | High-emphasis text |
-| `primary` | `#C87546` | Main accent, cinder orange |
+| `primary` | `#E17A3F` | Main accent, cinder orange |
 | `secondary` | `#879B5C` | Secondary accent, grove green |
 | `error` | `#B34A45` | Errors, destructive actions, and removals |
 | `warning` | `#D9A441` | Warnings and attention states |
