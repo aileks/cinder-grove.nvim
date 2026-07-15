@@ -1,22 +1,22 @@
 local M = {}
 
 local terminal = {
-  'bg',
-  'red',
-  'green',
-  'yellow',
-  'blue',
-  'magenta',
+  'background',
+  'error',
+  'success',
+  'warning',
+  'info',
+  'purple',
   'cyan',
-  'fg_dim',
-  'muted',
-  'red',
-  'green',
-  'yellow',
-  'blue',
-  'magenta',
+  'text_secondary',
+  'overlay',
+  'error',
+  'success',
+  'warning',
+  'info',
+  'purple',
   'cyan',
-  'fg_bright',
+  'text_bright',
 }
 
 function M.apply(colors)

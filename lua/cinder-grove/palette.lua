@@ -1,21 +1,23 @@
 local M = {}
 
 local colors = {
-  bg = '#131210',
-  bg_alt = '#1B1916',
+  background = '#131210',
+  container = '#1B1916',
   surface = '#23201C',
-  muted = '#58534C',
-  gray = '#9A938A',
-  fg_dim = '#ACA49B',
-  fg = '#BBB3A9',
-  fg_bright = '#DDD5CA',
-  red = '#B34A45',
-  green = '#879B5C',
-  yellow = '#D9A441',
-  blue = '#6785A1',
-  magenta = '#9A788F',
+  overlay = '#58534C',
+  text_muted = '#58534C',
+  text_subtle = '#9A938A',
+  text_secondary = '#ACA49B',
+  text = '#BBB3A9',
+  text_bright = '#DDD5CA',
+  primary = '#879B5C',
+  secondary = '#C87546',
+  error = '#B34A45',
+  warning = '#D9A441',
+  success = '#879B5C',
+  info = '#6785A1',
+  purple = '#9A788F',
   cyan = '#58918C',
-  orange = '#C87546',
 }
 
 local function is_hex(value)

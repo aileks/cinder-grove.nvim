@@ -2,22 +2,22 @@ local M = {}
 
 function M.fzf_colors()
   return {
-    hl = { 'fg', 'CinderGroveOrange' },
-    ['hl+'] = { 'fg', 'CinderGroveYellow' },
-    fg = { 'fg', 'CinderGroveFg' },
-    bg = { 'fg', 'CinderGroveBg' },
-    ['fg+'] = { 'fg', 'CinderGroveFgBright' },
+    hl = { 'fg', 'CinderGroveSecondary' },
+    ['hl+'] = { 'fg', 'CinderGroveWarning' },
+    fg = { 'fg', 'CinderGroveText' },
+    bg = { 'fg', 'CinderGroveBackground' },
+    ['fg+'] = { 'fg', 'CinderGroveTextBright' },
     ['bg+'] = { 'bg', 'Visual' },
-    pointer = { 'fg', 'CinderGroveOrange' },
-    marker = { 'fg', 'CinderGroveGreen' },
-    prompt = { 'fg', 'CinderGroveMagenta' },
+    pointer = { 'fg', 'CinderGroveSecondary' },
+    marker = { 'fg', 'CinderGrovePrimary' },
+    prompt = { 'fg', 'CinderGrovePurple' },
     info = { 'fg', 'CinderGroveCyan' },
-    gutter = { 'fg', 'CinderGroveBg' },
-    header = { 'fg', 'CinderGroveBlue' },
+    gutter = { 'fg', 'CinderGroveBackground' },
+    header = { 'fg', 'CinderGroveInfo' },
     border = { 'fg', 'FloatBorder' },
-    spinner = { 'fg', 'CinderGroveYellow' },
-    query = { 'fg', 'CinderGroveFgBright' },
-    disabled = { 'fg', 'CinderGroveMuted' },
+    spinner = { 'fg', 'CinderGroveWarning' },
+    query = { 'fg', 'CinderGroveTextBright' },
+    disabled = { 'fg', 'CinderGroveTextMuted' },
   }
 end
 

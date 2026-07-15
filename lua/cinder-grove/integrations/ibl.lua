@@ -1,5 +1,5 @@
 return {
   IblIndent = { fg = 'surface' },
   IblWhitespace = { fg = 'surface' },
-  IblScope = { fg = 'blue' },
+  IblScope = { fg = 'info' },
 }

@@ -3,22 +3,22 @@ local colors = require('cinder-grove.palette').get(config.colors)
 
 local function mode(accent)
   return {
-    a = { fg = colors.bg, bg = accent, gui = 'bold' },
-    b = { fg = colors.fg_bright, bg = colors.surface },
-    c = { fg = colors.fg, bg = colors.bg_alt },
+    a = { fg = colors.background, bg = accent, gui = 'bold' },
+    b = { fg = colors.text_bright, bg = colors.surface },
+    c = { fg = colors.text, bg = colors.container },
   }
 end
 
 return {
-  normal = mode(colors.blue),
-  insert = mode(colors.green),
-  visual = mode(colors.magenta),
-  replace = mode(colors.red),
-  command = mode(colors.yellow),
+  normal = mode(colors.info),
+  insert = mode(colors.success),
+  visual = mode(colors.purple),
+  replace = mode(colors.error),
+  command = mode(colors.warning),
   terminal = mode(colors.cyan),
   inactive = {
-    a = { fg = colors.gray, bg = colors.surface },
-    b = { fg = colors.gray, bg = colors.surface },
-    c = { fg = colors.muted, bg = colors.bg_alt },
+    a = { fg = colors.text_subtle, bg = colors.surface },
+    b = { fg = colors.text_subtle, bg = colors.surface },
+    c = { fg = colors.text_muted, bg = colors.container },
   },
 }
