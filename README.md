@@ -2,6 +2,8 @@
 
 A warm, muted Neovim colorscheme that's easy on the eyes.
 
+Checkout the [VS Code version](https://codeberg.org/aileks/cinder-grove)
+
 ![Cinder Grove Showcase](./assets/screenshot.png)
 
 ## Features
