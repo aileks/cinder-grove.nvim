@@ -1,7 +1,7 @@
 # Cinder Grove
 
 > [!NOTE]  
-> Report issues on [Codeberg](https://codeberg.org/aileks/cinder-grove.nvim/issues)
+> Report issues on [GitHub](https://github.com/aileks/cinder-grove.nvim/issues)
 
 A warm, muted Neovim colorscheme that's easy on the eyes.
 
@@ -9,8 +9,8 @@ A warm, muted Neovim colorscheme that's easy on the eyes.
 
 ## Ports
 
-[VS Code](https://codeberg.org/aileks/cinder-grove)
-[GTK](https://codeberg.org/aileks/cinder-grove-gtk)
+[VS Code](https://github.com/aileks/cinder-grove)
+[GTK](https://github.com/aileks/cinder-grove-gtk)
 
 ## Features
 
