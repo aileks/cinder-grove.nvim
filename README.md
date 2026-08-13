@@ -73,27 +73,7 @@ vim.cmd.colorscheme('cinder-grove')
 
 ### Palette
 
-Cinder Grove uses portable semantic roles for UI layers, text hierarchy, brand accents, and status colors.
-
-| Token            | Hex       | Common use                                |
-| ---------------- | --------- | ----------------------------------------- |
-| `background`     | `#131210` | App or editor background                  |
-| `container`      | `#1B1916` | Panels, popovers, and code blocks         |
-| `surface`        | `#23201C` | Raised or interactive regions             |
-| `overlay`        | `#58534C` | Selections and active controls            |
-| `text_muted`     | `#58534C` | Disabled text and lowest emphasis         |
-| `text_subtle`    | `#9A938A` | Metadata and supporting text              |
-| `text_secondary` | `#ACA49B` | Secondary text                            |
-| `text`           | `#BBB3A9` | Default text                              |
-| `text_bright`    | `#DDD5CA` | High-emphasis text                        |
-| `primary`        | `#E17A3F` | Main accent, cinder orange                |
-| `secondary`      | `#879B5C` | Secondary accent, grove green             |
-| `error`          | `#B34A45` | Errors, destructive actions, and removals |
-| `warning`        | `#D9A441` | Warnings and attention states             |
-| `success`        | `#879B5C` | Success states and additions              |
-| `info`           | `#6785A1` | Informational states and links            |
-| `purple`         | `#9A788F` | Supporting accent and keywords            |
-| `cyan`           | `#58918C` | Supporting accent, types, and hints       |
+![Cinder Grove color palette](./assets/palette.svg)
 
 ### Palette overrides
 

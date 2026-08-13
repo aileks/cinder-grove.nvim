@@ -1,0 +1,109 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="900"
+  height="360"
+  viewBox="0 0 900 360"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Cinder Grove color palette</title>
+  <desc id="desc">The fifteen unique colors used by the Cinder Grove Neovim colorscheme.</desc>
+
+  <style>
+    .hex {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      font-size: 14px;
+      font-weight: 600;
+      text-anchor: middle;
+    }
+
+    .light {
+      fill: #DDD5CA;
+    }
+
+    .dark {
+      fill: #131210;
+    }
+  </style>
+
+  <!-- Row 1 -->
+
+  <g transform="translate(0 0)">
+    <rect width="180" height="120" fill="#131210" />
+    <text class="hex light" x="90" y="66">#131210</text>
+  </g>
+
+  <g transform="translate(180 0)">
+    <rect width="180" height="120" fill="#1B1916" />
+    <text class="hex light" x="90" y="66">#1B1916</text>
+  </g>
+
+  <g transform="translate(360 0)">
+    <rect width="180" height="120" fill="#23201C" />
+    <text class="hex light" x="90" y="66">#23201C</text>
+  </g>
+
+  <g transform="translate(540 0)">
+    <rect width="180" height="120" fill="#58534C" />
+    <text class="hex light" x="90" y="66">#58534C</text>
+  </g>
+
+  <g transform="translate(720 0)">
+    <rect width="180" height="120" fill="#6785A1" />
+    <text class="hex dark" x="90" y="66">#6785A1</text>
+  </g>
+
+  <!-- Row 2 -->
+
+  <g transform="translate(0 120)">
+    <rect width="180" height="120" fill="#58918C" />
+    <text class="hex dark" x="90" y="66">#58918C</text>
+  </g>
+
+  <g transform="translate(180 120)">
+    <rect width="180" height="120" fill="#879B5C" />
+    <text class="hex dark" x="90" y="66">#879B5C</text>
+  </g>
+
+  <g transform="translate(360 120)">
+    <rect width="180" height="120" fill="#9A788F" />
+    <text class="hex dark" x="90" y="66">#9A788F</text>
+  </g>
+
+  <g transform="translate(540 120)">
+    <rect width="180" height="120" fill="#9A938A" />
+    <text class="hex dark" x="90" y="66">#9A938A</text>
+  </g>
+
+  <g transform="translate(720 120)">
+    <rect width="180" height="120" fill="#ACA49B" />
+    <text class="hex dark" x="90" y="66">#ACA49B</text>
+  </g>
+
+  <!-- Row 3 -->
+
+  <g transform="translate(0 240)">
+    <rect width="180" height="120" fill="#BBB3A9" />
+    <text class="hex dark" x="90" y="66">#BBB3A9</text>
+  </g>
+
+  <g transform="translate(180 240)">
+    <rect width="180" height="120" fill="#DDD5CA" />
+    <text class="hex dark" x="90" y="66">#DDD5CA</text>
+  </g>
+
+  <g transform="translate(360 240)">
+    <rect width="180" height="120" fill="#E17A3F" />
+    <text class="hex dark" x="90" y="66">#E17A3F</text>
+  </g>
+
+  <g transform="translate(540 240)">
+    <rect width="180" height="120" fill="#D9A441" />
+    <text class="hex dark" x="90" y="66">#D9A441</text>
+  </g>
+
+  <g transform="translate(720 240)">
+    <rect width="180" height="120" fill="#B34A45" />
+    <text class="hex light" x="90" y="66">#B34A45</text>
+  </g>
+</svg>
